@@ -29,7 +29,7 @@ To download the solution for this step as a zip file, just choose the link here:
 
 First of all, we need a conroller for our app view that defines how the view should react to user inputs, such as a button press event. 
 
-We create a new folder called `controller` inside the `webapp` folder. This folder will hold all our controller files. Inside the `controller` folder, we create a new file called `App.view.xml`. We define the app controller in its own file by extending the OpenUI5-provided `sap/ui/core/mvc/Controller`. In the beginning, it holds only a single function called `onShowHello` that shows an alert with the static text "Hello World".
+We create a new folder called `controller` inside the `webapp` folder. This folder will hold all our controller files. Inside the `controller` folder, we create a new file called `App.controller.xml`. We define the app controller in its own file by extending the OpenUI5-provided `sap/ui/core/mvc/Controller`. In the beginning, it holds only a single function called `onShowHello` that shows an alert with the static text "Hello World".
 
 
 ```ts
